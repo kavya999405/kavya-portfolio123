@@ -19,20 +19,6 @@ This repository contains a responsive professional portfolio website built for G
    - Folder: `/ (root)`
 7. Click **Save**.
 
-Your live site will normally appear at:
-
-`https://YOUR-GITHUB-USERNAME.github.io/kavya-portfolio/`
-
-## Required edits before submission
-
-Open `index.html` and replace:
-
-- `your.email@example.com`
-- The LinkedIn URL
-- The GitHub profile URL
-
-You may also replace the text "AI Lab Project" or add a resume link later.
-
 ## Assignment alignment
 
 This site includes:
