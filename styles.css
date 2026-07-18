@@ -321,3 +321,26 @@ footer { background: #101827; color: #cbd3df; padding: 24px 0; }
   .artifact-header { flex-direction: column; }
   .footer-wrap { flex-direction: column; }
 }
+
+.profile-photo{
+  width:220px;
+  height:220px;
+  object-fit:cover;
+  border-radius:50%;
+  display:block;
+  margin:0 auto 20px;
+  border:6px solid white;
+  box-shadow:0 10px 25px rgba(0,0,0,.18);
+}
+
+.hero-profile-title{
+  text-align:center;
+  font-size:16px;
+  font-weight:600;
+  color:#4b5563;
+  margin-bottom:20px;
+}
+
+.hero-card{
+  text-align:center;
+}
