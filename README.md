@@ -1,36 +1,27 @@
 # Kavya Margana Professional Portfolio
 
-This repository contains a responsive professional portfolio website built for GitHub Pages.
+This updated version includes:
 
-## Publish with GitHub Pages
+- Artifact 1: BridgeAI
+- Artifact 2: Cybersecurity & Data Privacy
+- View and Download PDF buttons for Artifact 2
+- Updated navigation and homepage buttons
+- Updated reflection covering both artifacts
+- Correct LinkedIn and GitHub links
 
-1. Sign in to GitHub.
-2. Create a new **public** repository, for example:
-   `kavya-portfolio`
-3. Upload these files to the repository root:
-   - `index.html`
-   - `styles.css`
-   - `script.js`
-4. Open the repository's **Settings**.
-5. Select **Pages** from the left menu.
-6. Under **Build and deployment**, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/ (root)`
-7. Click **Save**.
+## GitHub Pages deployment
 
-## Assignment alignment
+Upload all files and folders from this project to the root of the GitHub repository.
 
-This site includes:
+Required structure:
 
-- A selected and used portfolio tool: GitHub Pages
-- A detailed Artifact 1: BridgeAI
-- A consistent professional template
-- A reflection section
-- Professional presentation suitable for instructor review
+```text
+index.html
+styles.css
+script.js
+profile.jpg
+assets/
+  Cybersecurity-Data-Privacy-Presentation.pdf
+```
 
-## Files
-
-- `index.html` — all portfolio content
-- `styles.css` — layout and visual design
-- `script.js` — mobile navigation and footer year
+After committing the files, GitHub Pages will publish the updated portfolio.
