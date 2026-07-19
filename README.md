@@ -1,27 +1,14 @@
-# Kavya Margana Professional Portfolio
+# Kavya Margana Portfolio - Rubric-Ready Version
 
-This updated version includes:
+Upload the contents of this folder to the root of the GitHub repository.
 
-- Artifact 1: BridgeAI
-- Artifact 2: Cybersecurity & Data Privacy
-- View and Download PDF buttons for Artifact 2
-- Updated navigation and homepage buttons
-- Updated reflection covering both artifacts
-- Correct LinkedIn and GitHub links
+This version includes:
+- Professional bio and personal value proposition
+- Artifact 1 and Artifact 2 using the full required template
+- Title, Introduction, Description, Objective, Process, Tools and Technologies, Value Proposition, Unique Value, Relevance, and References
+- Tangible PDF evidence for both artifacts
+- Correct View PDF and Download PDF buttons
+- Updated skills and navigation
+- A separate Artifact 2 reflection text file for Brightspace
 
-## GitHub Pages deployment
-
-Upload all files and folders from this project to the root of the GitHub repository.
-
-Required structure:
-
-```text
-index.html
-styles.css
-script.js
-profile.jpg
-assets/
-  Cybersecurity-Data-Privacy-Presentation.pdf
-```
-
-After committing the files, GitHub Pages will publish the updated portfolio.
+Important: The reflection belongs in the Brightspace assignment text area, not on the public portfolio website.

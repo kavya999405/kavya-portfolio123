@@ -1,0 +1,14 @@
+Artifact 2 Reflection - Cybersecurity & Data Privacy
+
+I selected the Cybersecurity & Data Privacy presentation as my second portfolio artifact because it demonstrates a different set of skills from my first artifact, BridgeAI. BridgeAI emphasizes AI solution design and prompt engineering for Business Analysis, while this presentation demonstrates industry research, technical comparison, teamwork, ethical reasoning, and professional communication. Together, the two artifacts show a broader range of my developing AI and machine learning competencies.
+
+Customization for the Audience:
+I revised the artifact for an audience of technology leaders, hiring managers, Business Analysts, and professionals who may need to make responsible AI adoption decisions. Instead of presenting the work only as a class assignment, I added a concise introduction, objective, process, tools, value proposition, unique value, relevance, contribution, references, and direct access to the completed PDF. I also used clear language to explain the difference between traditional machine learning and deep learning so that both technical and nontechnical viewers can understand why each approach fits a different cybersecurity problem.
+
+Lessons Learned:
+I learned that choosing an AI approach should begin with the problem, the type of data, the required response time, the need for explainability, and the level of risk. Through the Cloudflare and Microsoft Security Copilot examples, I saw that traditional machine learning can be the stronger choice when speed, lower cost, and auditability are priorities. Deep learning is more useful when the task requires understanding large volumes of unstructured data, connecting events across systems, or generating natural-language summaries. I also learned that technical performance must be considered together with privacy, regulation, cybersecurity risk, and human oversight.
+
+Feedback and Revisions:
+The portfolio requirements and rubric showed that a strong artifact needs more than a description. It must include tangible evidence and explain the title, objective, process, tools, value proposition, unique value, relevance, and references. Based on that feedback, I revised the portfolio entry to include every required element, clarified my contribution as the Industry Analyst, added a professional PDF viewer and download option, strengthened the explanation of the artifact's relevance to AI/ML course objectives, and presented the content in a consistent, mobile-friendly format. I also manually reviewed the presentation content and citations for clarity and accuracy.
+
+This revision helped me understand how to transform coursework into professional evidence. The final portfolio entry not only shows what my team created, but also explains the decisions, learning, and practical value behind the work.
