@@ -10,49 +10,295 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
-
-  
 <body>
-<header class="site-header"><div class="container nav-wrap">
-<a class="brand" href="#home">KM</a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-<nav class="nav-links" aria-label="Primary navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#artifact-1">Artifact 1</a><a href="#artifact-2">Artifact 2</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
-</div></header>
-<main>
-<section id="home" class="hero section"><div class="container hero-grid"><div>
-<p class="eyebrow">Professional Portfolio</p><h1>Kavya Margana</h1><p class="hero-title">Business Analyst · AI &amp; Machine Learning Graduate Student</p>
-<p class="hero-copy">I combine business analysis, artificial intelligence, and data analytics to design practical, user-centered solutions that improve communication, documentation, collaboration, and decision-making.</p>
-<div class="hero-actions"><a class="btn primary" href="#artifact-1">View Artifact 1</a><a class="btn secondary" href="#artifact-2">View Artifact 2</a><a class="btn secondary" href="#contact">Contact</a></div></div>
-<aside class="hero-card" aria-label="Portfolio highlights"><span class="status">Available for professional networking</span><h2>Focus Areas</h2><div class="tag-grid"><span>Business Analysis</span><span>Generative AI</span><span>Machine Learning</span><span>Cybersecurity</span><span>Responsible AI</span><span>Data Analytics</span></div></aside>
-</div></section>
-<section id="about" class="section alt"><div class="container two-column"><div><p class="eyebrow">About Me</p><h2>Bridging business needs and intelligent technology</h2></div><div>
-<p>I am a Business Analyst with experience supporting enterprise IT projects through stakeholder collaboration, requirements analysis, system integrations, and AI-enabled business solutions.</p>
-<p>I am currently pursuing a master's degree in Artificial Intelligence and Machine Learning, where I continue to strengthen my expertise in AI, data analytics, prompt engineering, responsible AI, and digital transformation.</p>
-<div class="value-card"><h3>Personal Value Proposition</h3><p>I translate complex business challenges into clear, practical solutions by combining structured business analysis with emerging AI capabilities. My approach emphasizes usability, transparency, and human oversight.</p></div>
-</div></div></section>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">KM</a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#artifact">Artifact 1</a>
+        <a href="#skills">Skills</a>
+        <a href="#reflection">Reflection</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<section id="artifact-1" class="section"><div class="container">
-<p class="eyebrow">Artifact 1</p><div class="artifact-header"><div><h2>BridgeAI</h2><p class="artifact-subtitle">Enterprise Business Analyst Copilot</p></div><span class="artifact-badge">Workshop 1 - AI Lab Artifact</span></div>
-<div class="artifact-intro"><h3>Introduction</h3><p>BridgeAI is an AI-powered assistant created to support Business Analysts throughout the software development lifecycle. This authentic course artifact shows how generative AI can improve communication, documentation, requirements work, and decision support while maintaining responsible human oversight.</p></div>
-<div class="card-grid three"><article class="info-card"><h3>Description</h3><p>A focused AI copilot supporting requirements clarification, meeting summaries, user stories, process analysis, stakeholder communication, and structured decision support.</p></article><article class="info-card"><h3>Objective</h3><p>To investigate how AI can reduce repetitive Business Analysis work, improve documentation quality, and strengthen stakeholder communication.</p></article><article class="info-card"><h3>Value Proposition</h3><p>BridgeAI demonstrates how AI can augment professional judgment, save time, improve consistency, and help teams communicate more effectively.</p></article></div>
-<div class="section-block"><h3>Process</h3><div class="timeline"><div class="timeline-item"><div class="step">1</div><div><h4>Empathize</h4><p>Identified recurring challenges experienced by Business Analysts.</p></div></div><div class="timeline-item"><div class="step">2</div><div><h4>Define</h4><p>Created a problem statement focused on productivity and documentation.</p></div></div><div class="timeline-item"><div class="step">3</div><div><h4>Ideate</h4><p>Explored AI-supported Business Analysis workflows.</p></div></div><div class="timeline-item"><div class="step">4</div><div><h4>Prototype</h4><p>Built and configured a custom Business Analyst assistant.</p></div></div><div class="timeline-item"><div class="step">5</div><div><h4>Test and Revise</h4><p>Compared model outputs and refined prompts through iteration.</p></div></div></div></div>
-<div class="section-block"><h3>Tools and Technologies Used</h3><div class="tool-grid"><div><strong>ChatGPT</strong><span>Assistant development and prompt refinement</span></div><div><strong>Claude</strong><span>Response comparison</span></div><div><strong>Gemini</strong><span>Alternative output evaluation</span></div><div><strong>STORM AI</strong><span>Structured research</span></div><div><strong>GPT Builder</strong><span>Custom assistant creation</span></div><div><strong>Google Docs</strong><span>Project documentation</span></div></div></div>
-<div class="split-block"><div><h3>Unique Value</h3><p>This artifact combines my Business Analysis experience with AI solution design. Its unique strength is the emphasis on user needs, transparency, and human accountability rather than automation alone.</p></div><div><h3>Relevance</h3><p>The project applies foundational AI/ML competencies including prompt engineering, model comparison, iterative testing, responsible AI, and human-AI collaboration in a realistic professional setting.</p></div></div>
-<div class="section-block"><h3>References</h3><p>Course materials on Design Thinking, responsible AI, prompt engineering, and model evaluation informed the development of this artifact.</p></div>
-<div class="section-block highlight"><h3>Professional Evidence</h3><p>Open or download the completed BridgeAI project brief.</p><div class="hero-actions"><a class="btn primary" href="assets/BridgeAI-Artifact-1.pdf" target="_blank" rel="noopener">View PDF</a><a class="btn secondary" href="assets/BridgeAI-Artifact-1.pdf" download>Download PDF</a></div></div>
-</div></section>
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Professional Portfolio</p>
+          <h1>Kavya Margana</h1>
+          <p class="hero-title">Business Analyst · AI & Machine Learning Graduate Student</p>
+          <p class="hero-copy">
+            I combine business analysis, artificial intelligence, and data analytics to design
+            practical, user-centered solutions that improve communication, documentation,
+            collaboration, and decision-making.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#artifact">View Artifact 1</a>
+            <a class="btn secondary" href="#contact">Contact</a>
+          </div>
+        </div>
 
-<section id="artifact-2" class="section alt"><div class="container">
-<p class="eyebrow">Artifact 2</p><div class="artifact-header"><div><h2>Cybersecurity &amp; Data Privacy</h2><p class="artifact-subtitle">AI Approaches in Cybersecurity Operations</p></div><span class="artifact-badge">Workshop 2 - Team Presentation</span></div>
-<div class="artifact-intro"><h3>Introduction</h3><p>This authentic course presentation investigates how traditional machine learning and deep learning support modern cybersecurity operations. It was selected as Artifact 2 because it demonstrates a different skill set from BridgeAI: industry research, technical comparison, ethical analysis, teamwork, and evidence-based recommendations.</p></div>
-<div class="card-grid three"><article class="info-card"><h3>Description</h3><p>The presentation compares Cloudflare's CatBoost-based bot detection with Microsoft Security Copilot's transformer-based approach and evaluates cost, explainability, privacy, regulatory, and security trade-offs.</p></article><article class="info-card"><h3>Objective</h3><p>To analyze where machine learning and deep learning add value in cybersecurity and recommend responsible adoption strategies based on the problem, data, risk, and organizational context.</p></article><article class="info-card"><h3>Value Proposition</h3><p>The artifact helps technology leaders distinguish when interpretable traditional ML is sufficient and when deep learning is justified by complex, unstructured signals.</p></article></div>
-<div class="section-block"><h3>Process</h3><div class="timeline"><div class="timeline-item"><div class="step">1</div><div><h4>Industry Research</h4><p>Reviewed cybersecurity data types, operational challenges, AI applications, and scholarly sources.</p></div></div><div class="timeline-item"><div class="step">2</div><div><h4>Case Selection</h4><p>Selected Cloudflare and Microsoft Security Copilot as contrasting real-world examples.</p></div></div><div class="timeline-item"><div class="step">3</div><div><h4>Technical Comparison</h4><p>Compared algorithms, data characteristics, inference needs, explainability, and business impact.</p></div></div><div class="timeline-item"><div class="step">4</div><div><h4>Ethical Evaluation</h4><p>Examined privacy, automation bias, model risk, regulation, and responsible adoption.</p></div></div><div class="timeline-item"><div class="step">5</div><div><h4>Revision and Presentation</h4><p>Organized the analysis into a clear visual narrative and manually verified content and citations.</p></div></div></div></div>
-<div class="section-block"><h3>Tools and Technologies Used</h3><div class="tool-grid"><div><strong>Canva AI</strong><span>Slide design and visual layout</span></div><div><strong>ChatGPT</strong><span>Research and drafting support</span></div><div><strong>Claude</strong><span>Content structuring</span></div><div><strong>Scholarly Sources</strong><span>Technical evidence and citations</span></div><div><strong>Manual Verification</strong><span>Accuracy and source review</span></div><div><strong>PDF</strong><span>Professional shareable evidence</span></div></div></div>
-<div class="split-block"><div><h3>Unique Value</h3><p>This artifact translates technical AI concepts into practical guidance for security leaders. It connects model selection with cost, explainability, regulatory compliance, and organizational risk rather than treating AI performance as the only decision factor.</p></div><div><h3>Relevance</h3><p>The project demonstrates meaningful application of foundational AI/ML skills through model comparison, algorithm selection, responsible AI, data privacy, cybersecurity analysis, research synthesis, and professional communication.</p></div></div>
-<div class="section-block"><h3>My Contribution</h3><p>As the Industry Analyst, I researched the cybersecurity industry, identified key data types and operational challenges, and connected those findings to AI and machine learning applications. I also helped ensure the presentation was understandable to both technical and business audiences.</p></div>
-<div class="section-block"><h3>References</h3><ul class="clean-list"><li>Alexander (2025), Journal of Information Security.</li><li>Buczak &amp; Guven (2016), IEEE Communications Surveys &amp; Tutorials.</li><li>Balasubramanian, Seby, &amp; Kostakos (2024), transformer-based LLMs in cybersecurity.</li><li>Humphreys et al. (2024), AI ethics and responsible adoption.</li><li>Xin et al. (2018), IEEE Access.</li><li>Microsoft Learn and additional sources listed in the presentation.</li></ul></div>
-<div class="section-block highlight"><h3>Professional Evidence</h3><p>Open or download the complete 13-page presentation, including case studies, comparison, ethical reflection, strategic recommendation, and references.</p><div class="hero-actions"><a class="btn primary" href="assets/Cybersecurity-Data-Privacy-Presentation.pdf" target="_blank" rel="noopener">View PDF</a><a class="btn secondary" href="assets/Cybersecurity-Data-Privacy-Presentation.pdf" download>Download PDF</a></div></div>
-</div></section>
+        <aside class="hero-card" aria-label="Portfolio highlights">
+          <span class="status">Available for professional networking</span>
+          <h2>Focus Areas</h2>
+          <div class="tag-grid">
+            <span>Business Analysis</span>
+            <span>Generative AI</span>
+            <span>Prompt Engineering</span>
+            <span>Data Analytics</span>
+            <span>Responsible AI</span>
+            <span>Digital Transformation</span>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-<section id="skills" class="section"><div class="container"><p class="eyebrow">Skills</p><h2>Capabilities demonstrated through this portfolio</h2><div class="card-grid two"><article class="info-card"><h3>Technical Skills</h3><div class="pill-list"><span>Prompt Engineering</span><span>AI Evaluation</span><span>Machine Learning Analysis</span><span>Cybersecurity Research</span><span>Data Privacy</span><span>Responsible AI</span></div></article><article class="info-card"><h3>Professional Skills</h3><div class="pill-list"><span>Business Analysis</span><span>Stakeholder Communication</span><span>Design Thinking</span><span>Critical Thinking</span><span>Team Collaboration</span><span>Technical Presentation</span></div></article></div></div></section>
-<section id="contact" class="section contact-section"><div class="container contact-card"><div><p class="eyebrow">Contact</p><h2>Let's connect</h2></div><div class="contact-links"><a href="mailto:kavyamargana@gmail.com">kavyamargana@gmail.com</a><a href="https://www.linkedin.com/in/kavya-margana" target="_blank" rel="noopener">LinkedIn</a></div></div></section>
-</main><footer><div class="container footer-wrap"><span>© <span id="year"></span> Kavya Margana</span><span>Business Analyst · AI &amp; ML Graduate Student</span></div></footer><script src="script.js"></script></body></html>
+    <section id="about" class="section alt">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">About Me</p>
+          <h2>Bridging business needs and intelligent technology</h2>
+        </div>
+        <div>
+          <p>
+            I am a Business Analyst with experience supporting enterprise IT projects through
+            stakeholder collaboration, requirements analysis, system integrations, and
+            AI-enabled business solutions.
+          </p>
+          <p>
+            I am currently pursuing a master's degree in Artificial Intelligence and Machine Learning,
+            where I continue to strengthen my expertise in AI, data analytics, prompt engineering,
+            responsible AI, and digital transformation.
+          </p>
+          <div class="value-card">
+            <h3>Personal Value Proposition</h3>
+            <p>
+              I translate complex business challenges into clear, practical solutions by combining
+              structured business analysis with emerging AI capabilities. My approach emphasizes
+              usability, transparency, and human oversight.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="artifact" class="section">
+      <div class="container">
+        <p class="eyebrow">Artifact 1</p>
+        <div class="artifact-header">
+          <div>
+            <h2>BridgeAI</h2>
+            <p class="artifact-subtitle">Enterprise Business Analyst Copilot</p>
+          </div>
+          <span class="artifact-badge">Workshop 1 – AI Lab Artifact</span>
+        </div>
+
+        <div class="artifact-intro">
+          <p>
+            BridgeAI is an AI-powered assistant designed to support Business Analysts throughout
+            the software development lifecycle. It helps improve productivity by assisting with
+            communication, documentation, analysis, and decision support while encouraging
+            responsible AI use and human oversight.
+          </p>
+        </div>
+
+        <div class="card-grid three">
+          <article class="info-card">
+            <h3>Problem</h3>
+            <p>
+              Business Analysts often spend significant time creating documentation, organizing
+              requirements, and communicating information across stakeholder groups.
+            </p>
+          </article>
+          <article class="info-card">
+            <h3>Solution</h3>
+            <p>
+              A focused AI copilot that supports requirements work, meeting summaries, user stories,
+              process analysis, stakeholder communication, and structured decision support.
+            </p>
+          </article>
+          <article class="info-card">
+            <h3>Professional Value</h3>
+            <p>
+              The project demonstrates my ability to evaluate AI technologies, design user-centered
+              solutions, and apply AI responsibly to real business challenges.
+            </p>
+          </article>
+        </div>
+
+        <div class="section-block">
+          <h3>Project Objectives</h3>
+          <div class="check-grid">
+            <span>Improve documentation quality</span>
+            <span>Reduce repetitive BA work</span>
+            <span>Enhance stakeholder communication</span>
+            <span>Compare multiple AI models</span>
+            <span>Apply Design Thinking</span>
+            <span>Promote responsible AI use</span>
+          </div>
+        </div>
+
+        <div class="section-block">
+          <h3>Design Thinking Process</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="step">1</div>
+              <div><h4>Empathize</h4><p>Identified common challenges and needs experienced by Business Analysts.</p></div>
+            </div>
+            <div class="timeline-item">
+              <div class="step">2</div>
+              <div><h4>Define</h4><p>Developed a clear problem statement focused on productivity and documentation.</p></div>
+            </div>
+            <div class="timeline-item">
+              <div class="step">3</div>
+              <div><h4>Ideate</h4><p>Explored AI-based approaches for improving Business Analysis workflows.</p></div>
+            </div>
+            <div class="timeline-item">
+              <div class="step">4</div>
+              <div><h4>Prototype</h4><p>Built a custom Business Analyst assistant using ChatGPT Custom GPT Builder.</p></div>
+            </div>
+            <div class="timeline-item">
+              <div class="step">5</div>
+              <div><h4>Test</h4><p>Compared outputs from multiple AI tools and refined the assistant through iteration.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-block">
+          <h3>Tools Used</h3>
+          <div class="tool-grid">
+            <div><strong>ChatGPT</strong><span>Assistant development and prompt refinement</span></div>
+            <div><strong>Claude</strong><span>Response comparison</span></div>
+            <div><strong>Gemini</strong><span>Alternative AI output evaluation</span></div>
+            <div><strong>STORM AI</strong><span>Structured research and article generation</span></div>
+            <div><strong>GPT Builder</strong><span>Custom assistant creation</span></div>
+            <div><strong>Google Docs</strong><span>Project documentation</span></div>
+          </div>
+        </div>
+
+        <div class="split-block">
+          <div>
+            <h3>Key Outcomes</h3>
+            <ul class="clean-list">
+              <li>Compared responses from multiple large language models.</li>
+              <li>Evaluated AI-assisted research using STORM AI.</li>
+              <li>Applied the Design Thinking framework.</li>
+              <li>Built and tested a custom Business Analyst AI assistant.</li>
+              <li>Improved the assistant through iterative testing and refinement.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>What I Learned</h3>
+            <p>
+              This project strengthened my understanding of prompt engineering, AI-assisted
+              problem-solving, responsible AI, and human-AI collaboration. It also reinforced
+              the importance of designing AI tools around user needs and using AI to enhance,
+              not replace, professional judgment.
+            </p>
+          </div>
+        </div>
+
+        <div class="section-block highlight">
+          <h3>Future Enhancements</h3>
+          <div class="check-grid">
+            <span>Jira integration</span>
+            <span>Confluence support</span>
+            <span>RAG-based knowledge search</span>
+            <span>Workflow automation</span>
+            <span>Analytics dashboards</span>
+            <span>Enterprise API integration</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <p class="eyebrow">Skills</p>
+        <h2>Capabilities demonstrated through this portfolio</h2>
+        <div class="card-grid two">
+          <article class="info-card">
+            <h3>Technical Skills</h3>
+            <div class="pill-list">
+              <span>Prompt Engineering</span>
+              <span>AI Evaluation</span>
+              <span>Requirements Engineering</span>
+              <span>Technical Documentation</span>
+              <span>Data Analytics</span>
+              <span>AI Solution Design</span>
+            </div>
+          </article>
+          <article class="info-card">
+            <h3>Professional Skills</h3>
+            <div class="pill-list">
+              <span>Business Analysis</span>
+              <span>Stakeholder Communication</span>
+              <span>Design Thinking</span>
+              <span>Critical Thinking</span>
+              <span>Responsible AI</span>
+              <span>Root Cause Analysis</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="reflection" class="section">
+      <div class="container narrow">
+        <p class="eyebrow">Reflection</p>
+        <h2>Presenting academic work as professional evidence</h2>
+        <div class="reflection-card">
+          <p>
+            Creating this professional portfolio helped me present my work from an employer's
+            perspective rather than only as a class assignment. I selected BridgeAI as my first
+            artifact because it reflects the intersection of my Business Analysis experience and
+            my graduate studies in Artificial Intelligence and Machine Learning.
+          </p>
+          <p>
+            Through this project, I strengthened my skills in prompt engineering, AI evaluation,
+            Design Thinking, and responsible AI. I also learned how to communicate the purpose,
+            process, and professional value of an AI solution to a broader audience.
+          </p>
+          <p>
+            As I continue my graduate studies, I plan to expand this portfolio with additional
+            projects involving machine learning, data analytics, and generative AI. My goal is to
+            demonstrate continuous growth and the ability to apply technology to meaningful
+            business problems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let's connect</h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:kavyamargana@gmail.com">
+            kavyamargana@gmail.com
+        </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">https://www.linkedin.com/in/kavya-margana</a>
+          <a href="https://github.com/" target="_blank" rel="noopener">https://github.com/kavya999405</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <span>© <span id="year"></span> Kavya Margana</span>
+      <span>Business Analyst · AI & ML Graduate Student</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
