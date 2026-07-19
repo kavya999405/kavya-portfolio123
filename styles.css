@@ -344,17 +344,3 @@ footer { background: #101827; color: #cbd3df; padding: 24px 0; }
 .hero-card{
   text-align:center;
 }
-
-
-.hero-image{display:flex;justify-content:center;align-items:center}
-.profile-photo{
-width:320px;
-height:320px;
-object-fit:cover;
-border-radius:50%;
-border:6px solid #fff;
-box-shadow:0 10px 30px rgba(0,0,0,.18);
-}
-@media(max-width:768px){
-.profile-photo{width:220px;height:220px;margin-top:20px;}
-}
