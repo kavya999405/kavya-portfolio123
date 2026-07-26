@@ -344,3 +344,24 @@ footer { background: #101827; color: #cbd3df; padding: 24px 0; }
 .hero-card{
   text-align:center;
 }
+
+
+.infographic-container {
+  text-align: center;
+}
+
+.artifact-infographic {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin: 0 auto 28px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  background: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .artifact-infographic { border-radius: 12px; }
+}
