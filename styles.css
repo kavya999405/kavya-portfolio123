@@ -365,3 +365,29 @@ footer { background: #101827; color: #cbd3df; padding: 24px 0; }
 @media (max-width: 768px) {
   .artifact-infographic { border-radius: 12px; }
 }
+
+
+/* Artifact 4 professional evidence */
+.evidence-figure {
+  margin: 24px 0 0;
+}
+
+.evidence-image {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.evidence-figure figcaption {
+  max-width: 900px;
+  margin: 16px auto 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: center;
+}
