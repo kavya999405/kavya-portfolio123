@@ -14,13 +14,13 @@
 <body>
 <header class="site-header"><div class="container nav-wrap">
 <a class="brand" href="#home">KM</a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-<nav class="nav-links" aria-label="Primary navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#artifact-1">Artifact 1</a><a href="#artifact-2">Artifact 2</a><a href="#artifact-3">Artifact 3</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+<nav class="nav-links" aria-label="Primary navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#artifact-1">Artifact 1</a><a href="#artifact-2">Artifact 2</a><a href="#artifact-3">Artifact 3</a><a href="#artifact-4">Artifact 4</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
 </div></header>
 <main>
 <section id="home" class="hero section"><div class="container hero-grid"><div>
 <p class="eyebrow">Professional Portfolio</p><h1>Kavya Margana</h1><p class="hero-title">Business Analyst · AI &amp; Machine Learning Graduate Student</p>
 <p class="hero-copy">I combine business analysis, artificial intelligence, and data analytics to design practical, user-centered solutions that improve communication, documentation, collaboration, and decision-making.</p>
-<div class="hero-actions"><a class="btn primary" href="#artifact-1">View Artifact 1</a><a class="btn secondary" href="#artifact-2">View Artifact 2</a><a class="btn secondary" href="#artifact-3">View Artifact 3</a><a class="btn secondary" href="#contact">Contact</a></div></div>
+<div class="hero-actions"><a class="btn primary" href="#artifact-1">View Artifact 1</a><a class="btn secondary" href="#artifact-2">View Artifact 2</a><a class="btn secondary" href="#artifact-3">View Artifact 3</a><a class="btn secondary" href="#artifact-4">View Artifact 4</a><a class="btn secondary" href="#contact">Contact</a></div></div>
 <aside class="hero-card" aria-label="Kavya Margana profile and portfolio highlights"><img src="profile.jpg" alt="Kavya Margana" class="profile-photo" /><span class="status">Available for professional networking</span><h2>Focus Areas</h2><div class="tag-grid"><span>Business Analysis</span><span>Generative AI</span><span>Machine Learning</span><span>Cybersecurity</span><span>Responsible AI</span><span>Data Analytics</span></div></aside>
 </div></section>
 <section id="about" class="section alt"><div class="container two-column"><div><p class="eyebrow">About Me</p><h2>Bridging business needs and intelligent technology</h2></div><div>
@@ -74,34 +74,180 @@
 <div class="section-block"><h3>References</h3><p>Course materials, class discussions, and group research related to Curricular Practical Training, Generative AI, large language models, and enterprise applications.</p></div>
 </div></section>
 
+<section id="artifact-4" class="section alt"><div class="container">
+<p class="eyebrow">Artifact 4</p>
+<div class="artifact-header">
+  <div>
+    <h2>Solving Real-World Data Challenges in Machine Learning</h2>
+    <p class="artifact-subtitle">Missing Data, Class Imbalance, and Model Drift</p>
+  </div>
+  <span class="artifact-badge">Machine Learning Data Challenge</span>
+</div>
+
+<div class="artifact-intro">
+  <h3>Introduction</h3>
+  <p>
+    This artifact documents my work through three realistic machine learning scenarios involving
+    missing data, imbalanced datasets, and data and concept drift. It demonstrates how I identify
+    a problem, compare possible solutions, explain my reasoning, and evaluate how technical
+    decisions may affect accuracy, fairness, customer experience, and business outcomes.
+  </p>
+</div>
+
+<div class="card-grid three">
+  <article class="info-card">
+    <h3>Objective</h3>
+    <p>
+      Apply machine learning concepts to realistic data challenges and recommend solutions that
+      balance model quality, responsible decision-making, and organizational needs.
+    </p>
+  </article>
+  <article class="info-card">
+    <h3>Audience</h3>
+    <p>
+      Instructors, employers, Business Analysts, Data Analysts, and professionals interested in
+      practical and responsible machine learning.
+    </p>
+  </article>
+  <article class="info-card">
+    <h3>Value Proposition</h3>
+    <p>
+      The artifact shows my ability to move beyond definitions and apply machine learning concepts
+      to data quality, model evaluation, fairness, monitoring, and business decision-making.
+    </p>
+  </article>
+</div>
+
+<div class="section-block">
+  <h3>Process and Scenario Analysis</h3>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="step">1</div>
+      <div>
+        <h4>Missing Data in a Housing Dataset</h4>
+        <p>
+          I examined missing “year built” values that were concentrated in older neighborhoods.
+          Because deleting records or using one overall average could introduce bias, I proposed
+          context-aware approaches such as K-nearest neighbors or neighborhood-based median
+          imputation. I would validate the selected method by temporarily hiding known values,
+          generating estimates, and comparing them with the actual values.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="step">2</div>
+      <div>
+        <h4>Imbalanced Fraud-Detection Data</h4>
+        <p>
+          In a dataset where only 0.5% of transactions were fraudulent, I recognized that 99.5%
+          accuracy was misleading because the model classified every transaction as legitimate.
+          I recommended stratified sampling, class weighting, careful resampling, threshold
+          adjustment, and evaluation using precision, recall, F1-score, confusion matrices, and
+          precision-recall curves. I also considered the cost of missed fraud and false alerts.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="step">3</div>
+      <div>
+        <h4>Data and Concept Drift in Music Recommendations</h4>
+        <p>
+          I evaluated declining recommendation performance and distinguished data drift from
+          concept drift. Possible causes included expansion into new countries, viral music
+          trends, and a revised onboarding process. I recommended segmenting performance by
+          country and user type, retraining with recent data, continuously monitoring model
+          quality, and using A/B testing before broad deployment.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-block">
+  <h3>Tools and Concepts Used</h3>
+  <div class="tool-grid">
+    <div><strong>SchoolAI Data Challenge Coach</strong><span>Interactive scenario analysis and feedback</span></div>
+    <div><strong>Imputation Methods</strong><span>K-nearest neighbors and context-aware median imputation</span></div>
+    <div><strong>Classification Metrics</strong><span>Precision, recall, F1-score, and confusion matrices</span></div>
+    <div><strong>Sampling Strategies</strong><span>Stratification, class weighting, and careful resampling</span></div>
+    <div><strong>Drift Analysis</strong><span>Data drift and concept drift identification</span></div>
+    <div><strong>Model Monitoring</strong><span>Segmentation, retraining, threshold tuning, and A/B testing</span></div>
+  </div>
+</div>
+
+<div class="split-block">
+  <div>
+    <h3>Skills Demonstrated</h3>
+    <ul class="clean-list">
+      <li>Data quality analysis</li>
+      <li>Bias-aware decision-making</li>
+      <li>Model metric selection</li>
+      <li>Critical comparison of alternatives</li>
+      <li>Business-impact analysis</li>
+      <li>Continuous model monitoring</li>
+    </ul>
+  </div>
+  <div>
+    <h3>What I Learned</h3>
+    <p>
+      I learned that high accuracy alone does not make a model effective, especially with highly
+      imbalanced data. I also learned that missingness patterns may contain meaningful information
+      and that production models require ongoing monitoring because user behavior, populations,
+      and business conditions can change.
+    </p>
+  </div>
+</div>
+
+<div class="section-block">
+  <h3>Revision Based on Feedback</h3>
+  <p>
+    The AI coach encouraged me to make my recommendations more specific. I refined the missing-data
+    response by naming K-nearest neighbors imputation and explaining a validation method. I also
+    expanded the fraud scenario by connecting threshold selection to investigation capacity,
+    financial risk, customer experience, and transaction type. These revisions made my reasoning
+    clearer and more useful to a professional audience.
+  </p>
+</div>
+
+<div class="section-block highlight">
+  <h3>Professional Evidence</h3>
+  <p>
+    Add one or two screenshots from the SchoolAI interaction, such as the three-scenario completion
+    summary, a response demonstrating strong critical thinking, or the AI coach’s feedback. Place
+    the image files in the <strong>assets</strong> folder and replace the placeholders below.
+  </p>
+
+  <div class="card-grid two">
+    <article class="info-card">
+      <h3>Screenshot 1</h3>
+      <p><em>Suggested caption:</em> Completion summary confirming that I worked through all three machine learning data challenges.</p>
+    </article>
+    <article class="info-card">
+      <h3>Screenshot 2</h3>
+      <p><em>Suggested caption:</em> AI coach feedback showing how I strengthened the specificity and validation of my recommendation.</p>
+    </article>
+  </div>
+</div>
+
+<div class="section-block">
+  <h3>Artifact Reflection</h3>
+  <p>
+    I selected this activity because it demonstrates my ability to apply machine learning concepts
+    to realistic situations rather than only explain them theoretically. I customized the artifact
+    for a professional audience by organizing it into objective, process, tools, skills, evidence,
+    and value sections instead of displaying the full chatbot conversation. This activity
+    strengthened my understanding that machine learning requires thoughtful data preparation,
+    appropriate evaluation measures, continuous monitoring, and decisions that balance technical
+    performance with real-world impact.
+  </p>
+</div>
+</div></section>
+
 <section id="skills" class="section"><div class="container"><p class="eyebrow">Skills</p><h2>Capabilities demonstrated through this portfolio</h2><div class="card-grid two"><article class="info-card"><h3>Technical Skills</h3><div class="pill-list"><span>Prompt Engineering</span><span>AI Evaluation</span><span>Machine Learning Analysis</span><span>Cybersecurity Research</span><span>Data Privacy</span><span>Responsible AI</span></div></article><article class="info-card"><h3>Professional Skills</h3><div class="pill-list"><span>Business Analysis</span><span>Stakeholder Communication</span><span>Design Thinking</span><span>Critical Thinking</span><span>Team Collaboration</span><span>Technical Presentation</span></div></article></div></div></section>
 
-<section id="artifact4" class="section alt">
-<div class="container">
-<p class="eyebrow">Artifact 4</p>
-<h2>Solving Real-World Data Challenges in Machine Learning</h2>
-<p><strong>Objective:</strong> Apply machine learning concepts to realistic data challenges involving missing data, imbalanced datasets, and data/concept drift while evaluating technical and business impact.</p>
-<h3>Process</h3>
-<ul class="clean-list">
-<li>Analyzed missing "year built" values and recommended neighborhood-aware imputation using K-nearest Neighbors or median imputation, with validation against known values.</li>
-<li>Evaluated an imbalanced fraud detection dataset and recommended precision, recall, F1-score, confusion matrix, threshold tuning, class weighting, and stratified sampling instead of relying on accuracy.</li>
-<li>Investigated declining performance in a music recommendation system by distinguishing data drift from concept drift and proposing segmentation, retraining, monitoring, and A/B testing.</li>
-</ul>
-<h3>Tools</h3>
-<div class="pill-list">
-<span>SchoolAI Data Challenge Coach</span>
-<span>Machine Learning Concepts</span>
-<span>Critical Analysis</span>
-<span>Precision & Recall</span>
-<span>F1 Score</span>
-<span>Confusion Matrix</span>
-</div>
-<h3>Value Proposition</h3>
-<p>This artifact demonstrates my ability to apply machine learning concepts to realistic business scenarios, evaluate data quality issues, recognize bias, choose appropriate evaluation metrics, and connect technical decisions with business outcomes.</p>
-<h3>Professional Evidence</h3>
-<p>Add screenshots of the completion summary and strongest chatbot interaction with captions describing what each demonstrates.</p>
-</div>
-</section>
+
 
 <section id="contact" class="section contact-section"><div class="container contact-card"><div><p class="eyebrow">Contact</p><h2>Let's connect</h2></div><div class="contact-links"><a href="mailto:kavyamargana@gmail.com">kavyamargana@gmail.com</a><a href="https://www.linkedin.com/in/kavya-margana" target="_blank" rel="noopener">LinkedIn</a></div></div></section>
 </main><footer><div class="container footer-wrap"><span>© <span id="year"></span> Kavya Margana</span><span>Business Analyst · AI &amp; ML Graduate Student</span></div></footer><script src="script.js"></script></body></html>
