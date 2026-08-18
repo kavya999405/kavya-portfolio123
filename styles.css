@@ -73,11 +73,11 @@ p { color: var(--muted); }
   color: white;
   background: linear-gradient(135deg, var(--primary), var(--accent));
 }
-.nav-links { display: flex; gap: 28px; align-items: center; }
+.nav-links { display: flex; gap: 20px; align-items: center; }
 .nav-links a {
   text-decoration: none;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 .nav-links a:hover { color: var(--primary); }
